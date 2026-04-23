@@ -1,0 +1,38 @@
+{
+  "id": "bio_data_mordern_1",
+  "name": "Bio Data - Mordern",
+  "pdfFilename": "bio_data_mordern_1.pdf",
+  "fields": [
+    { "name": "full_name", "label": "Full Name", "type": "text" },
+    { "name": "email", "label": "Email", "type": "email" },
+    { "name": "phone", "label": "Phone Number", "type": "tel" },
+
+    { "name": "dob", "label": "Date of Birth", "type": "date" },
+    { "name": "height", "label": "Height", "type": "text" },
+    { "name": "weight", "label": "Weight", "type": "text" },
+    { "name": "blood_group", "label": "Blood Group", "type": "text" },
+    { "name": "religion", "label": "Religion", "type": "text" },
+    { "name": "profession", "label": "Profession", "type": "text" },
+
+    { "name": "present_address", "label": "Present Address", "type": "textarea" },
+    { "name": "permanent_address", "label": "Permanent Address", "type": "textarea" },
+
+    { "name": "education_1_degree", "label": "Degree", "type": "text" },
+    { "name": "education_1_institution", "label": "Institution", "type": "text" },
+    { "name": "education_1_year", "label": "Passing Year", "type": "text" },
+    { "name": "education_1_result", "label": "Result", "type": "text" },
+
+    { "name": "education_2_degree", "label": "Degree", "type": "text" },
+    { "name": "education_2_institution", "label": "Institution", "type": "text" },
+    { "name": "education_2_year", "label": "Passing Year", "type": "text" },
+    { "name": "education_2_result", "label": "Result", "type": "text" },
+
+    { "name": "father_name", "label": "Father's Name", "type": "text" },
+    { "name": "father_profession", "label": "Father's Profession", "type": "text" },
+    { "name": "mother_name", "label": "Mother's Name", "type": "text" },
+    { "name": "mother_profession", "label": "Mother's Profession", "type": "text" },
+    { "name": "siblings_details", "label": "Siblings Details", "type": "textarea" },
+
+    { "name": "hobbies", "label": "Hobbies", "type": "textarea" }
+  ]
+}

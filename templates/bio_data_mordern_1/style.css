@@ -1,0 +1,59 @@
+.bio-doc {
+  font-family: "Georgia", serif;
+  font-size: 13px;
+  color: #222;
+  background: #fff;
+  padding: 40px;
+  max-width: 720px;
+  margin: auto;
+  border: 8px double #e6c77a;
+}
+
+/* Title */
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.contact {
+  margin-bottom: 16px;
+}
+
+/* Section */
+.section {
+  margin-top: 18px;
+}
+
+.section h3 {
+  background: #e6c77a;
+  padding: 4px 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Rows */
+.row {
+  display: flex;
+  margin: 3px 0;
+}
+
+.row span:first-child {
+  width: 45%;
+}
+
+.row span:last-child {
+  width: 55%;
+}
+
+/* Education */
+.edu-block {
+  margin: 10px 0;
+}

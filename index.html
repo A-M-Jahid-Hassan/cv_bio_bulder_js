@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create professional biodata and CV in minutes — free, private, no sign-up.">
+  <title>Biodata Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="landing">
+
+  <div id="loader" class="loader-overlay hidden">
+    <div class="loader-spinner"></div>
+    <p>Loading…</p>
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">📋</span>
+        <span class="brand-name">Biodata Builder</span>
+      </a>
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="navbar-links" id="navbar-links">
+        <a href="templates.html" class="nav-link">Biodata</a>
+        <a href="index.html"     class="nav-link">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Create Your Biodata<br>in Minutes</h1>
+      <p class="hero-subtitle">
+        Choose a professional template, fill in your details, and download a
+        polished PDF — entirely in your browser, no sign-up required.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" id="btn-get-started">Get Started →</button>
+        <a href="#about-section" class="btn btn-outline btn-lg">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-illustration">
+      <div class="preview-mockup" aria-hidden="true">
+        <div class="mockup-header"></div>
+        <div class="mockup-body">
+          <div class="mockup-line w-80"></div>
+          <div class="mockup-line w-60"></div>
+          <div class="mockup-divider"></div>
+          <div class="mockup-line w-90"></div>
+          <div class="mockup-line w-70"></div>
+          <div class="mockup-line w-50"></div>
+          <div class="mockup-divider"></div>
+          <div class="mockup-line w-80"></div>
+          <div class="mockup-line w-60"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="features-section">
+    <div class="section-container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>Choose a Template</h3>
+          <p>Pick from professionally designed marriage biodata or CV templates.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✏️</div>
+          <h3>Fill Your Details</h3>
+          <p>Enter your information and watch the live preview update instantly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📄</div>
+          <h3>Download PDF</h3>
+          <p>Generate a clean, print-ready PDF with one click.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about-section" id="about-section">
+    <div class="section-container">
+      <h2 class="section-title">About Biodata Builder</h2>
+      <p class="about-text">
+        Biodata Builder is a free, open-source tool that runs entirely in your browser.
+        No data is ever sent to a server — your information stays completely private.
+        Built with pure HTML, CSS, and JavaScript for maximum simplicity and reliability.
+      </p>
+      <div class="about-features">
+        <span class="badge">🔒 100% Private</span>
+        <span class="badge">⚡ No Sign-up</span>
+        <span class="badge">📱 Mobile Friendly</span>
+        <span class="badge">🌐 Works Offline</span>
+        <span class="badge">🆓 Free Forever</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section-container">
+      <p>&copy; 2024 Biodata Builder — 100% client-side, no tracking.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/stateManager.js"></script>
+  <script src="assets/js/router.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

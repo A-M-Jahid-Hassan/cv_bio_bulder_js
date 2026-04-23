@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Builder — Biodata Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="builder">
+
+  <div id="loader" class="loader-overlay hidden">
+    <div class="loader-spinner"></div>
+    <p>Loading template…</p>
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">📋</span>
+        <span class="brand-name">Biodata Builder</span>
+      </a>
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="navbar-links" id="navbar-links">
+        <a href="templates.html" class="nav-link">Biodata</a>
+        <a href="index.html"     class="nav-link">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Builder topbar -->
+  <div class="builder-topbar">
+    <button class="btn btn-ghost" id="btn-back-to-templates">← Back</button>
+    <h2 class="builder-title" id="builder-template-name">Template Builder</h2>
+    <button class="btn btn-primary" id="btn-go-to-preview">Preview PDF →</button>
+  </div>
+
+  <!-- Split layout -->
+  <div class="builder-layout">
+
+    <!-- Left: Form -->
+    <div class="builder-form-panel">
+      <div class="panel-inner" id="form-container">
+        <!-- Injected by templateLoader -->
+      </div>
+    </div>
+
+    <!-- Right: Live Preview -->
+    <div class="builder-preview-panel">
+      <div class="preview-header">
+        <span class="preview-label">Live Preview</span>
+        <span class="preview-hint">Updates as you type</span>
+      </div>
+      <div class="preview-body">
+        <div class="preview-paper">
+          <div id="preview-content"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/stateManager.js"></script>
+  <script src="assets/js/router.js"></script>
+  <script src="assets/js/templateLoader.js"></script>
+  <script src="assets/js/previewEngine.js"></script>
+  <script src="assets/js/formBinder.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

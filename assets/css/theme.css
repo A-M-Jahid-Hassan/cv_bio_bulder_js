@@ -1,0 +1,73 @@
+/* ============================================================
+   Theme — CSS Custom Properties
+   ============================================================ */
+
+:root {
+  /* Colors */
+  --color-primary:      #2563EB;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-light:#dbeafe;
+  --color-accent:       #10B981;
+  --color-accent-dark:  #059669;
+  --color-bg:           #F8FAFC;
+  --color-surface:      #ffffff;
+  --color-text:         #1F2937;
+  --color-text-muted:   #6B7280;
+  --color-border:       #E5E7EB;
+  --color-border-dark:  #D1D5DB;
+  --color-danger:       #EF4444;
+  --color-success:      #10B981;
+
+  /* Typography */
+  --font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs:   11px;
+  --font-size-sm:   13px;
+  --font-size-base: 15px;
+  --font-size-md:   16px;
+  --font-size-lg:   18px;
+  --font-size-xl:   22px;
+  --font-size-2xl:  28px;
+  --font-size-3xl:  36px;
+  --font-weight-normal:  400;
+  --font-weight-medium:  500;
+  --font-weight-semibold:600;
+  --font-weight-bold:    700;
+  --line-height-tight:  1.3;
+  --line-height-normal: 1.6;
+
+  /* Spacing (8px base) */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Shape */
+  --radius-sm: 6px;
+  --radius:    8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.10), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.05);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,.08), 0 4px 6px rgba(0,0,0,.05);
+  --shadow-xl: 0 20px 25px rgba(0,0,0,.10), 0 8px 10px rgba(0,0,0,.04);
+
+  /* Transitions */
+  --transition-fast:   0.15s ease;
+  --transition:        0.2s ease;
+  --transition-slow:   0.3s ease;
+
+  /* Layout */
+  --navbar-height: 60px;
+  --container-max: 1200px;
+  --form-panel-width: 42%;
+}

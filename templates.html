@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose a Template — Biodata Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="templates">
+
+  <div id="loader" class="loader-overlay hidden">
+    <div class="loader-spinner"></div>
+    <p>Loading…</p>
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">📋</span>
+        <span class="brand-name">Biodata Builder</span>
+      </a>
+      <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle menu">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+      <div class="navbar-links" id="navbar-links">
+        <a href="templates.html" class="nav-link">Biodata</a>
+        <a href="index.html"     class="nav-link">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="section-container">
+      <h1 class="page-title">Choose a Template</h1>
+      <p class="page-subtitle">Select a template to get started. Each is fully customizable.</p>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <div class="templates-grid" id="templates-grid">
+      <div class="loading-placeholder">
+        <div class="spinner"></div>
+        <p>Loading templates…</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/stateManager.js"></script>
+  <script src="assets/js/router.js"></script>
+  <script src="assets/js/templateLoader.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

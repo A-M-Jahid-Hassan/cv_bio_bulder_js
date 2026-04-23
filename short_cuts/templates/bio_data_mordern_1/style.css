@@ -1,0 +1,90 @@
+/* ================================================================
+   Bio-Data Mordern — Template Styles
+   Every rule is scoped under .bio-data-mordern-1 so nothing leaks into
+   the app UI.
+
+   PDF tips:
+     • Use px, not rem, for predictable PDF sizing
+     • Keep max-width around 680–760px for clean A4 output
+     • Avoid position:fixed / vh / vw units
+ ================================================================ */
+
+.bio-data-mordern-1 {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 13px;
+  color: #1a1a1a;
+  background: #fff;
+  padding: 32px;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── Header ── */
+.bio-data-mordern-1-header {
+  text-align: center;
+  border-bottom: 2px solid #1a237e;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+.bio-data-mordern-1-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a237e;
+  margin: 0 0 4px;
+  letter-spacing: 1px;
+}
+
+.bio-data-mordern-1-sub {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+/* ── Sections ── */
+.bio-data-mordern-1-section {
+  margin-bottom: 14px;
+}
+
+.bio-data-mordern-1-section-title {
+  background: #1a237e;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-bottom: 6px;
+}
+
+/* ── Table ── */
+.bio-data-mordern-1-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bio-data-mordern-1-table tr:nth-child(even) td {
+  background: #f5f5ff;
+}
+
+.bio-data-mordern-1-table .field-label {
+  width: 28%;
+  font-weight: 600;
+  color: #1a237e;
+  font-size: 12px;
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+
+.bio-data-mordern-1-table .field-sep {
+  width: 4%;
+  text-align: center;
+  color: #888;
+  padding: 4px 2px;
+}
+
+.bio-data-mordern-1-table .field-value {
+  font-size: 12.5px;
+  padding: 4px 6px;
+}

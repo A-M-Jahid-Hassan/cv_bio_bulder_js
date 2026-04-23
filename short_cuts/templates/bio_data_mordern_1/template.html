@@ -1,0 +1,44 @@
+<!-- ================================================================
+     bio-data-mordern-1  —  output document template
+     Rules:
+       • Use {{field_name}} wherever you want user input to appear
+       • field_name must match a "name" in config.json (and form.html)
+       • Scope all CSS under .bio-data-mordern-1 in style.css
+     ================================================================ -->
+
+<div class="bio-data-mordern-1">
+
+  <div class="bio-data-mordern-1-header">
+    <h1 class="bio-data-mordern-1-name">{{full_name}}</h1>
+    <p  class="bio-data-mordern-1-sub">{{date_of_birth}}</p>
+  </div>
+
+  <div class="bio-data-mordern-1-section">
+    <div class="bio-data-mordern-1-section-title">Contact Information</div>
+    <table class="bio-data-mordern-1-table">
+      <tr>
+        <td class="field-label">Phone</td>
+        <td class="field-sep">:</td>
+        <td class="field-value">{{phone}}</td>
+      </tr>
+      <tr>
+        <td class="field-label">Email</td>
+        <td class="field-sep">:</td>
+        <td class="field-value">{{email}}</td>
+      </tr>
+      <tr>
+        <td class="field-label">Address</td>
+        <td class="field-sep">:</td>
+        <td class="field-value">{{address}}</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ═══ Add more sections below ═══
+  <div class="bio-data-mordern-1-section">
+    <div class="bio-data-mordern-1-section-title">Another Section</div>
+    ...
+  </div>
+  ═══ -->
+
+</div>
